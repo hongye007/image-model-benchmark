@@ -1,0 +1,588 @@
+{
+  "planned": 70,
+  "actual_images": 70,
+  "model_scope": "AtomFlow requested model identifiers",
+  "models": {
+    "gpt-image-2": {
+      "timings": {
+        "planned": 14,
+        "submitted": 14,
+        "successful": 14,
+        "timings": 14,
+        "median": 32.8975,
+        "p90": 68.84,
+        "least": 17.318,
+        "most": 156.849
+      },
+      "timings_by_request_kind": {
+        "generation": {
+          "planned": 6,
+          "submitted": 6,
+          "successful": 6,
+          "timings": 6,
+          "median": 19.9305,
+          "p90": 36.878,
+          "least": 17.318,
+          "most": 36.878
+        },
+        "edit": {
+          "planned": 8,
+          "submitted": 8,
+          "successful": 8,
+          "timings": 8,
+          "median": 50.075,
+          "p90": 156.849,
+          "least": 28.229,
+          "most": 156.849
+        }
+      },
+      "dimension_scores_equal_task_weight": {
+        "instruction": 3.125,
+        "visual": 3.875,
+        "preservation": 3.4166666666666665
+      },
+      "check_pass_pct_equal_task_weight": 75.69444444444444,
+      "tasks": {
+        "t01": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t02": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t03": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t04": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t05": {
+          "check_pass_pct_round_mean": 77.77777777777777,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 3.6666666666666665,
+            "preservation": 4
+          }
+        },
+        "t06": {
+          "check_pass_pct_round_mean": 27.77777777777778,
+          "dimension_scores_round_mean": {
+            "instruction": 2,
+            "visual": 3.3333333333333335,
+            "preservation": 2.6666666666666665
+          }
+        },
+        "t07": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": 3
+          }
+        },
+        "t08": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": 4
+          }
+        }
+      }
+    },
+    "gpt-image-2.5-flare": {
+      "timings": {
+        "planned": 14,
+        "submitted": 14,
+        "successful": 14,
+        "timings": 14,
+        "median": 33.297,
+        "p90": 57.401,
+        "least": 25.049,
+        "most": 65.713
+      },
+      "timings_by_request_kind": {
+        "generation": {
+          "planned": 6,
+          "submitted": 6,
+          "successful": 6,
+          "timings": 6,
+          "median": 35.668499999999995,
+          "p90": 57.401,
+          "least": 26.566,
+          "most": 57.401
+        },
+        "edit": {
+          "planned": 8,
+          "submitted": 8,
+          "successful": 8,
+          "timings": 8,
+          "median": 33.297,
+          "p90": 65.713,
+          "least": 25.049,
+          "most": 65.713
+        }
+      },
+      "dimension_scores_equal_task_weight": {
+        "instruction": 3.125,
+        "visual": 3.9583333333333335,
+        "preservation": 3.25
+      },
+      "check_pass_pct_equal_task_weight": 80.41666666666666,
+      "tasks": {
+        "t01": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t02": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t03": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t04": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t05": {
+          "check_pass_pct_round_mean": 82.22222222222221,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": 4
+          }
+        },
+        "t06": {
+          "check_pass_pct_round_mean": 44.44444444444444,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 3.6666666666666665,
+            "preservation": 3
+          }
+        },
+        "t07": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 2,
+            "visual": 4,
+            "preservation": 2
+          }
+        },
+        "t08": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": 4
+          }
+        }
+      }
+    },
+    "gpt-image-2.5-sunburst": {
+      "timings": {
+        "planned": 14,
+        "submitted": 14,
+        "successful": 14,
+        "timings": 14,
+        "median": 37.992,
+        "p90": 50.229,
+        "least": 16.88,
+        "most": 56.749
+      },
+      "timings_by_request_kind": {
+        "generation": {
+          "planned": 6,
+          "submitted": 6,
+          "successful": 6,
+          "timings": 6,
+          "median": 35.9285,
+          "p90": 50.229,
+          "least": 16.88,
+          "most": 50.229
+        },
+        "edit": {
+          "planned": 8,
+          "submitted": 8,
+          "successful": 8,
+          "timings": 8,
+          "median": 37.992,
+          "p90": 56.749,
+          "least": 30.271,
+          "most": 56.749
+        }
+      },
+      "dimension_scores_equal_task_weight": {
+        "instruction": 3.1666666666666665,
+        "visual": 3.875,
+        "preservation": 3.5833333333333335
+      },
+      "check_pass_pct_equal_task_weight": 80.55555555555556,
+      "tasks": {
+        "t01": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t02": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t03": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t04": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t05": {
+          "check_pass_pct_round_mean": 77.77777777777777,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 3.6666666666666665,
+            "preservation": 4
+          }
+        },
+        "t06": {
+          "check_pass_pct_round_mean": 50.0,
+          "dimension_scores_round_mean": {
+            "instruction": 2.3333333333333335,
+            "visual": 3.3333333333333335,
+            "preservation": 3.3333333333333335
+          }
+        },
+        "t07": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": 3
+          }
+        },
+        "t08": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": 4
+          }
+        }
+      }
+    },
+    "gpt-image-2.6-flare": {
+      "timings": {
+        "planned": 14,
+        "submitted": 14,
+        "successful": 14,
+        "timings": 14,
+        "median": 55.3515,
+        "p90": 76.564,
+        "least": 17.095,
+        "most": 108.413
+      },
+      "timings_by_request_kind": {
+        "generation": {
+          "planned": 6,
+          "submitted": 6,
+          "successful": 6,
+          "timings": 6,
+          "median": 20.181,
+          "p90": 59.776,
+          "least": 17.095,
+          "most": 59.776
+        },
+        "edit": {
+          "planned": 8,
+          "submitted": 8,
+          "successful": 8,
+          "timings": 8,
+          "median": 62.2745,
+          "p90": 108.413,
+          "least": 33.276,
+          "most": 108.413
+        }
+      },
+      "dimension_scores_equal_task_weight": {
+        "instruction": 3,
+        "visual": 3.7916666666666665,
+        "preservation": 3.1666666666666665
+      },
+      "check_pass_pct_equal_task_weight": 79.58333333333333,
+      "tasks": {
+        "t01": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t02": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t03": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 3.6666666666666665,
+            "preservation": null
+          }
+        },
+        "t04": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t05": {
+          "check_pass_pct_round_mean": 77.77777777777777,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 3.6666666666666665,
+            "preservation": 4
+          }
+        },
+        "t06": {
+          "check_pass_pct_round_mean": 42.22222222222222,
+          "dimension_scores_round_mean": {
+            "instruction": 2,
+            "visual": 3,
+            "preservation": 2.6666666666666665
+          }
+        },
+        "t07": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 2,
+            "visual": 4,
+            "preservation": 2
+          }
+        },
+        "t08": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": 4
+          }
+        }
+      }
+    },
+    "gpt-image-2.6-sunburst": {
+      "timings": {
+        "planned": 14,
+        "submitted": 14,
+        "successful": 14,
+        "timings": 14,
+        "median": 41.1435,
+        "p90": 80.207,
+        "least": 18.358,
+        "most": 113.164
+      },
+      "timings_by_request_kind": {
+        "generation": {
+          "planned": 6,
+          "submitted": 6,
+          "successful": 6,
+          "timings": 6,
+          "median": 24.999499999999998,
+          "p90": 56.13,
+          "least": 18.358,
+          "most": 56.13
+        },
+        "edit": {
+          "planned": 8,
+          "submitted": 8,
+          "successful": 8,
+          "timings": 8,
+          "median": 66.80199999999999,
+          "p90": 113.164,
+          "least": 31.668,
+          "most": 113.164
+        }
+      },
+      "dimension_scores_equal_task_weight": {
+        "instruction": 3.0416666666666665,
+        "visual": 3.9166666666666665,
+        "preservation": 3.25
+      },
+      "check_pass_pct_equal_task_weight": 77.36111111111111,
+      "tasks": {
+        "t01": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t02": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t03": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t04": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": null
+          }
+        },
+        "t05": {
+          "check_pass_pct_round_mean": 83.33333333333333,
+          "dimension_scores_round_mean": {
+            "instruction": 3,
+            "visual": 4,
+            "preservation": 4
+          }
+        },
+        "t06": {
+          "check_pass_pct_round_mean": 35.55555555555556,
+          "dimension_scores_round_mean": {
+            "instruction": 2.3333333333333335,
+            "visual": 3.3333333333333335,
+            "preservation": 3
+          }
+        },
+        "t07": {
+          "check_pass_pct_round_mean": 66.66666666666667,
+          "dimension_scores_round_mean": {
+            "instruction": 2,
+            "visual": 4,
+            "preservation": 2
+          }
+        },
+        "t08": {
+          "check_pass_pct_round_mean": 100.0,
+          "dimension_scores_round_mean": {
+            "instruction": 4,
+            "visual": 4,
+            "preservation": 4
+          }
+        }
+      }
+    }
+  },
+  "task_dimensions": {
+    "t01": {
+      "requested": "1024x1536",
+      "actual_counts": {
+        "1024x1536": 5
+      }
+    },
+    "t02": {
+      "requested": "1024x1024",
+      "actual_counts": {
+        "1254x1254": 5
+      }
+    },
+    "t03": {
+      "requested": "1024x1536",
+      "actual_counts": {
+        "1024x1536": 15
+      }
+    },
+    "t04": {
+      "requested": "1536x1024",
+      "actual_counts": {
+        "1536x1024": 5
+      }
+    },
+    "t05": {
+      "requested": "1024x1536",
+      "actual_counts": {
+        "1024x1536": 15
+      }
+    },
+    "t06": {
+      "requested": "1024x1536",
+      "actual_counts": {
+        "1024x1535": 9,
+        "1024x1536": 6
+      }
+    },
+    "t07": {
+      "requested": "1536x1024",
+      "actual_counts": {
+        "1536x1024": 5
+      }
+    },
+    "t08": {
+      "requested": "1024x1536",
+      "actual_counts": {
+        "1024x1536": 5
+      }
+    }
+  }
+}

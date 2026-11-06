@@ -1,0 +1,21 @@
+task_id	round	requested_model	sample_id	source	actual	comparison	region	pixel_count	status	exact_pct	over12_pct	mae	grid
+t06	1	gpt-image-2	t06-r1-gpt-image-2	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.260563	26.252738	8.089174	native_top_left_intersection
+t06	1	gpt-image-2.5-flare	t06-r1-gpt-image-2.5-flare	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.391916	17.246725	6.180086	exact_dimensions
+t06	1	gpt-image-2.5-sunburst	t06-r1-gpt-image-2.5-sunburst	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.191152	34.135179	9.115806	exact_dimensions
+t06	1	gpt-image-2.6-flare	t06-r1-gpt-image-2.6-flare	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.23892	28.056597	8.60482	native_top_left_intersection
+t06	1	gpt-image-2.6-sunburst	t06-r1-gpt-image-2.6-sunburst	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.215782	29.086241	8.631791	native_top_left_intersection
+t06	2	gpt-image-2	t06-r2-gpt-image-2	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.246719	24.955121	7.740868	native_top_left_intersection
+t06	2	gpt-image-2.5-flare	t06-r2-gpt-image-2.5-flare	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.27364	16.767969	6.684057	exact_dimensions
+t06	2	gpt-image-2.5-sunburst	t06-r2-gpt-image-2.5-sunburst	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.459187	19.908033	6.722849	native_top_left_intersection
+t06	2	gpt-image-2.6-flare	t06-r2-gpt-image-2.6-flare	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.314054	24.122736	7.623508	native_top_left_intersection
+t06	2	gpt-image-2.6-sunburst	t06-r2-gpt-image-2.6-sunburst	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.350256	24.869588	7.833879	native_top_left_intersection
+t06	3	gpt-image-2	t06-r3-gpt-image-2	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.136268	34.248909	9.592002	exact_dimensions
+t06	3	gpt-image-2.5-flare	t06-r3-gpt-image-2.5-flare	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.069674	43.229775	11.404253	native_top_left_intersection
+t06	3	gpt-image-2.5-sunburst	t06-r3-gpt-image-2.5-sunburst	1024x1536	1024x1535	outside	280,620,455,810	1538590	差 1 像素，原坐标交集	0.388993	21.537772	7.162973	native_top_left_intersection
+t06	3	gpt-image-2.6-flare	t06-r3-gpt-image-2.6-flare	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.457972	19.225663	6.613025	exact_dimensions
+t06	3	gpt-image-2.6-sunburst	t06-r3-gpt-image-2.6-sunburst	1024x1536	1024x1536	outside	280,620,455,810	1539614	同尺寸逐像素	0.174654	29.783504	8.400112	exact_dimensions
+t07	1	gpt-image-2	t07-r1-gpt-image-2	1536x1024	1536x1024	inside	426,0,1109,1024	699392	同尺寸逐像素	0.248216	27.543781	8.682738	exact_dimensions
+t07	1	gpt-image-2.5-flare	t07-r1-gpt-image-2.5-flare	1536x1024	1536x1024	inside	426,0,1109,1024	699392	同尺寸逐像素	0.036031	56.172361	16.637283	exact_dimensions
+t07	1	gpt-image-2.5-sunburst	t07-r1-gpt-image-2.5-sunburst	1536x1024	1536x1024	inside	426,0,1109,1024	699392	同尺寸逐像素	0.215187	39.634282	12.51337	exact_dimensions
+t07	1	gpt-image-2.6-flare	t07-r1-gpt-image-2.6-flare	1536x1024	1536x1024	inside	426,0,1109,1024	699392	同尺寸逐像素	0.133974	47.582901	18.567147	exact_dimensions
+t07	1	gpt-image-2.6-sunburst	t07-r1-gpt-image-2.6-sunburst	1536x1024	1536x1024	inside	426,0,1109,1024	699392	同尺寸逐像素	0.022448	69.890705	25.056271	exact_dimensions

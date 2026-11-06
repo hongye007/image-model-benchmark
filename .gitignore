@@ -1,0 +1,13 @@
+.DS_Store
+._*
+.env
+.env.*
+*.log
+*.tmp
+node_modules/
+dist/
+.cache/
+__pycache__/
+results.json
+schedule.json
+blind-key.json

@@ -1,0 +1,3519 @@
+[
+  {
+    "blind_id": "t01-r1-A",
+    "task_id": "t01",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "person",
+        "pass": true,
+        "note": "一人，灰黑短发、细框眼镜与深蓝围裙。"
+      },
+      {
+        "id": "hands",
+        "pass": null,
+        "note": "可见关节和握姿自然，部分手指重叠，无法逐根确认两手各五指。"
+      },
+      {
+        "id": "action",
+        "pass": true,
+        "note": "画面左的右手持镊，尖端接触金色齿轮；左手托住取下表带的表壳和机芯。"
+      },
+      {
+        "id": "skin",
+        "pass": true,
+        "note": "脸上皱纹、色斑与手背干纹可辨。"
+      },
+      {
+        "id": "light",
+        "pass": true,
+        "note": "左窗侧光柔和，背光一侧保留阴影。"
+      },
+      {
+        "id": "composition",
+        "pass": true,
+        "note": "脸、双手和表壳清楚，未见多余文字。"
+      }
+    ],
+    "observation": "人物、皮肤纹理和工具都清晰，镊尖与齿轮接触处可见。左手托的是拆下表带的腕表表壳。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t01-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t01-r1-B",
+    "task_id": "t01",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "person",
+        "pass": true,
+        "note": "一位细框眼镜、灰黑短发、深蓝围裙的老年女性。"
+      },
+      {
+        "id": "hands",
+        "pass": null,
+        "note": "表带遮挡左手部分指尖，右手指叠合；可见握持合理，无法确认双手指头总数。"
+      },
+      {
+        "id": "action",
+        "pass": true,
+        "note": "右手镊尖夹细齿轮，左手托带金属表带的腕表。"
+      },
+      {
+        "id": "skin",
+        "pass": true,
+        "note": "脸部自然皱纹和手指皮肤褶皱清晰。"
+      },
+      {
+        "id": "light",
+        "pass": true,
+        "note": "左窗给出柔和侧光，眼下及背光侧阴影合理。"
+      },
+      {
+        "id": "composition",
+        "pass": true,
+        "note": "人物脸、双手、腕表清晰，桌上有表壳与细零件，未见文字。"
+      }
+    ],
+    "observation": "低饱和光线下，镊尖、齿轮、开盖腕表和垂下的金属表带均可辨。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t01-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t01-r1-C",
+    "task_id": "t01",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "person",
+        "pass": true,
+        "note": "单一老年女性、细框眼镜、灰黑短发与深蓝工作围裙。"
+      },
+      {
+        "id": "hands",
+        "pass": null,
+        "note": "右手捏镊和左手托表姿态自然；表带及手指互相遮挡，无法逐根确认双手指头数。"
+      },
+      {
+        "id": "action",
+        "pass": true,
+        "note": "右手镊尖与金色齿轮相接，左手托住腕表。"
+      },
+      {
+        "id": "skin",
+        "pass": true,
+        "note": "发丝、皱纹、手部皮纹清楚。"
+      },
+      {
+        "id": "light",
+        "pass": true,
+        "note": "左窗照亮左侧发丝和手背，另一侧较暗。"
+      },
+      {
+        "id": "composition",
+        "pass": true,
+        "note": "脸、手、腕表和木台零件均清楚；未见文字。"
+      }
+    ],
+    "observation": "较清晰的三点构图把脸、镊尖和腕表连在一起；木台上的拆开表壳和工具可见。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t01-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t01-r1-D",
+    "task_id": "t01",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "person",
+        "pass": true,
+        "note": "一人，细金属框、灰黑短发和蓝围裙清楚。"
+      },
+      {
+        "id": "hands",
+        "pass": null,
+        "note": "镊子捏持、左手托握形状可读；交叠指头无法逐根计数。"
+      },
+      {
+        "id": "action",
+        "pass": true,
+        "note": "右手持镊接触金色小齿轮，左手托露出机芯的表壳。"
+      },
+      {
+        "id": "skin",
+        "pass": true,
+        "note": "眼下与手上褶纹、轻微色斑可见。"
+      },
+      {
+        "id": "light",
+        "pass": true,
+        "note": "窗在左，柔和亮面与自然阴影相接。"
+      },
+      {
+        "id": "composition",
+        "pass": true,
+        "note": "脸、双手和表体均在画面内，未见文字。"
+      }
+    ],
+    "observation": "整体低对比，镊尖和细齿仍可辨。左手托拆去表带的表体，桌面另有拆下的金属表壳。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t01-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t01-r1-E",
+    "task_id": "t01",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "person",
+        "pass": true,
+        "note": "一位灰黑短发、细框眼镜、蓝围裙的老年女性。"
+      },
+      {
+        "id": "hands",
+        "pass": null,
+        "note": "关节、指甲和捏持动作可读；指尖部分被表带与其他手指挡住，无法核对两手各五指。"
+      },
+      {
+        "id": "action",
+        "pass": true,
+        "note": "画面左的右手夹住金色齿轮，左手托金属腕表。"
+      },
+      {
+        "id": "skin",
+        "pass": true,
+        "note": "面颊色斑、眼下皱褶与手背纹理均可见。"
+      },
+      {
+        "id": "light",
+        "pass": true,
+        "note": "左窗光源方向清楚，桌面和手背高光比其余样本明亮，背光侧仍有自然阴影。"
+      },
+      {
+        "id": "composition",
+        "pass": true,
+        "note": "脸、手、腕表均清楚；未见多余文字。"
+      }
+    ],
+    "observation": "偏暖的窗光照在左侧手背和桌面上，金色齿轮与开盖银表在围裙暗部前清楚。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t01-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t02-r1-A",
+    "task_id": "t02",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "structure",
+        "pass": true,
+        "note": "单一方形厚底玻璃瓶，银盖居中。"
+      },
+      {
+        "id": "liquid",
+        "pass": false,
+        "note": "浅琥珀水平液面可见，按玻璃外轮廓高约四分之三到五分之四，偏高。"
+      },
+      {
+        "id": "label",
+        "pass": true,
+        "note": "逐行可读：MUSEFRAME / EAU DE PARFUM / 50 mL。"
+      },
+      {
+        "id": "material",
+        "pass": true,
+        "note": "盖侧有横向拉丝，玻璃弧角折射与厚底清楚。"
+      },
+      {
+        "id": "grounding",
+        "pass": true,
+        "note": "瓶底有接触影，台面有玻璃反光。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "有一叶一石、正面和右侧及右上留白，叶尖触左边并被裁。"
+      }
+    ],
+    "observation": "单瓶的标签三行齐全；盖侧拉丝和厚底玻璃的亮暗过渡清楚。液位较高，左侧叶尖未留出完整轮廓。",
+    "defects": [
+      "液位偏高",
+      "叶尖被左边缘截断"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t02-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t02-r1-B",
+    "task_id": "t02",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "structure",
+        "pass": true,
+        "note": "方形厚玻璃单瓶，居中银色圆柱盖。"
+      },
+      {
+        "id": "liquid",
+        "pass": false,
+        "note": "液面水平可辨，但按外轮廓约四分之三以上。"
+      },
+      {
+        "id": "label",
+        "pass": true,
+        "note": "逐行可读：MUSEFRAME / EAU DE PARFUM / 50 mL。"
+      },
+      {
+        "id": "material",
+        "pass": true,
+        "note": "盖侧拉丝清楚，角部和瓶底可见折射。"
+      },
+      {
+        "id": "grounding",
+        "pass": true,
+        "note": "接触影与沿台面反光明确，无悬浮。"
+      },
+      {
+        "id": "layout",
+        "pass": true,
+        "note": "单叶和单石、右上留空，正面与右侧均见；叶片轮廓可辨。"
+      }
+    ],
+    "observation": "瓶子略小，右上暗色留白宽裕，纸标文字均正确。叶片在左侧完整可辨，液位较要求高。",
+    "defects": [
+      "液位偏高"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t02-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t02-r1-C",
+    "task_id": "t02",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "structure",
+        "pass": true,
+        "note": "一只厚底方瓶，银色圆柱瓶盖位置居中。"
+      },
+      {
+        "id": "liquid",
+        "pass": true,
+        "note": "浅琥珀色液面近水平透视，高约七成出头。"
+      },
+      {
+        "id": "label",
+        "pass": true,
+        "note": "逐行可读：MUSEFRAME / EAU DE PARFUM / 50 mL。"
+      },
+      {
+        "id": "material",
+        "pass": true,
+        "note": "瓶身折射、瓶底透亮与金属拉丝可辨。"
+      },
+      {
+        "id": "grounding",
+        "pass": true,
+        "note": "台面有接触影、金色反光和轻微倒影。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "右上留白与三分之四角度成立，有一石一叶，但叶柄伸出左侧。"
+      }
+    ],
+    "observation": "石台前方有柔和倒影，玻璃侧面形成暖金亮带。三行标签完整，叶柄越过画面左缘。",
+    "defects": [
+      "叶柄被裁"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t02-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t02-r1-D",
+    "task_id": "t02",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "structure",
+        "pass": true,
+        "note": "单一厚底方玻璃瓶、居中圆柱银盖。"
+      },
+      {
+        "id": "liquid",
+        "pass": true,
+        "note": "浅琥珀液体的水平面在约七成高度。"
+      },
+      {
+        "id": "label",
+        "pass": true,
+        "note": "逐行可读：MUSEFRAME / EAU DE PARFUM / 50 mL。"
+      },
+      {
+        "id": "material",
+        "pass": true,
+        "note": "顶盖有环状纹路，侧盖拉丝与厚玻璃的亮线可辨。"
+      },
+      {
+        "id": "grounding",
+        "pass": true,
+        "note": "贴近瓶底的阴影和反光可见，未悬浮。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "有一叶一石、右上净空和明显的右侧瓶面，但叶片宽端被裁。"
+      }
+    ],
+    "observation": "略俯视能看到盖顶的环形金属纹和玻璃瓶肩，标签三行准确。左侧叶片边缘被明显裁去。",
+    "defects": [
+      "左侧叶片被裁"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t02-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t02-r1-E",
+    "task_id": "t02",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "structure",
+        "pass": true,
+        "note": "单一方形厚底玻璃瓶，居中银色圆柱盖。"
+      },
+      {
+        "id": "liquid",
+        "pass": true,
+        "note": "浅琥珀色、水平液面透视可辨，约七成高度。"
+      },
+      {
+        "id": "label",
+        "pass": true,
+        "note": "逐行可读：MUSEFRAME / EAU DE PARFUM / 50 mL。"
+      },
+      {
+        "id": "material",
+        "pass": true,
+        "note": "金属盖拉丝、透明泵管和玻璃厚底折射可辨。"
+      },
+      {
+        "id": "grounding",
+        "pass": true,
+        "note": "瓶底和石头都落在石台上，玻璃有接触影和台面反光。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "一叶一石、右上留白和正右侧瓶面成立；叶片右端被瓶身遮挡。"
+      }
+    ],
+    "observation": "石头置于前景，瓶后的叶片右端被玻璃瓶挡住。银盖和厚玻璃材质可信，三行标签准确。",
+    "defects": [
+      "叶片未全露出"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t02-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t03-r1-A",
+    "task_id": "t03",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字核对为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字核对为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "逐字核对为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "逐字核对为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句“带上相机，慢慢出发。”与“MUSEFRAME”完整，无额外可读文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行顺序正确且不拆行；底部署名距底约48 px，小于竖向5%（约77 px）。"
+      }
+    ],
+    "observation": "墨绿六行文字与米白底对比清楚，插画将标题与下方活动信息分开。日期与地点下方的橙色分隔线未挡住文字。",
+    "defects": [
+      "品牌署名下边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t03-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t03-r1-B",
+    "task_id": "t03",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字核对为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字核对为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "逐字核对为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "逐字核对为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句“带上相机，慢慢出发。”与“MUSEFRAME”完整，无额外可读文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行位置、顺序和层级清楚；底部署名距底约55 px，未满竖向5%。"
+      }
+    ],
+    "observation": "街道插画在中间，日期和地点居中，短句以细橙线分隔。六行均可直接读清。",
+    "defects": [
+      "品牌署名下边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t03-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t03-r1-C",
+    "task_id": "t03",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字核对为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字核对为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "逐字核对为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "逐字核对为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句“带上相机，慢慢出发。”与“MUSEFRAME”完整，无额外可读文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行顺序和分行正确；日期与地点前有图标，署名距底约55 px，未满竖向5%。"
+      }
+    ],
+    "observation": "日期和地点前分别添加日历、定位图标，文字没有被插画遮住。六行用字与标点完整。",
+    "defects": [
+      "品牌署名下边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t03-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t03-r1-D",
+    "task_id": "t03",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字核对为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字核对为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "逐字核对为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "逐字核对为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句“带上相机，慢慢出发。”与“MUSEFRAME”完整，无额外可读文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行顺序正确；日期、地点在上半部，插画在它们下方；底部署名约44 px，未满竖向5%。"
+      }
+    ],
+    "observation": "六行文字完整，日期和地点被安排到插画上方。最底的短句与署名置于插画地面浅色部分，仍然可读。",
+    "defects": [
+      "活动信息未安排在下半部",
+      "品牌署名下边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t03-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t03-r1-E",
+    "task_id": "t03",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字核对为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字核对为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "逐字核对为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "逐字核对为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句“带上相机，慢慢出发。”与“MUSEFRAME”完整，无额外可读文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行顺序、层级和分行正确；底部署名距底约59 px，未满竖向5%。"
+      }
+    ],
+    "observation": "大标题下方的银杏街景与活动日期形成明显分区。短句、标点和品牌署名都清楚。",
+    "defects": [
+      "品牌署名下边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t03-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t04-r1-A",
+    "task_id": "t04",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "lemons",
+        "pass": false,
+        "note": "左侧确为3个黄色柠檬、成三角，但最前柠檬遮住左侧柠檬一角。"
+      },
+      {
+        "id": "mugs",
+        "pass": true,
+        "note": "右侧2个蓝陶瓷杯，一前一后；前杯遮住后杯部分。"
+      },
+      {
+        "id": "handles",
+        "pass": true,
+        "note": "两杯各见1个朝右杯柄，后柄下缘被前杯挡住。"
+      },
+      {
+        "id": "glass",
+        "pass": false,
+        "note": "中央前方为单一圆柱玻璃杯和一根吸管。水线约六成；红吸管水线上下有清楚偏移。"
+      },
+      {
+        "id": "spoon",
+        "pass": true,
+        "note": "唯一银茶匙横放在玻璃杯前，柄朝左、匙头朝右。"
+      },
+      {
+        "id": "physics",
+        "pass": true,
+        "note": "水面处可见单吸管折射偏移，蓝釉和匙面反光可信，阴影方向基本一致。"
+      }
+    ],
+    "observation": "全部物体数量和茶匙方向正确，柠檬和杯子有局部遮挡。匙面和玻璃焦散明亮，杯影均向右后展开。",
+    "defects": [
+      "柠檬之间有遮挡",
+      "前蓝杯部分遮挡后蓝杯",
+      "水量高于半杯"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t04-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t04-r1-B",
+    "task_id": "t04",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "lemons",
+        "pass": false,
+        "note": "左侧确为3个黄色柠檬、成三角，但左前柠檬及靠右柠檬遮住后柠檬的下缘。"
+      },
+      {
+        "id": "mugs",
+        "pass": true,
+        "note": "右侧2个蓝陶瓷杯，一前一后；前杯遮住后杯部分。"
+      },
+      {
+        "id": "handles",
+        "pass": true,
+        "note": "两杯各见1个朝右杯柄，后柄下缘被前杯挡住。"
+      },
+      {
+        "id": "glass",
+        "pass": false,
+        "note": "中央前方为单一圆柱玻璃杯和一根吸管。水线约六成至三分之二；红吸管只有一根，水面处轮廓偏移。"
+      },
+      {
+        "id": "spoon",
+        "pass": true,
+        "note": "唯一银茶匙横放在玻璃杯前，柄朝左、匙头朝右。"
+      },
+      {
+        "id": "physics",
+        "pass": true,
+        "note": "水面处可见单吸管折射偏移，蓝釉和匙面反光可信，阴影方向基本一致。"
+      }
+    ],
+    "observation": "全部物体数量和茶匙方向正确，柠檬和杯子有局部遮挡。略高水位和靠拢的柠檬构成主要偏差。",
+    "defects": [
+      "柠檬之间有遮挡",
+      "前蓝杯部分遮挡后蓝杯",
+      "水量高于半杯"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t04-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t04-r1-C",
+    "task_id": "t04",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "lemons",
+        "pass": false,
+        "note": "左侧确为3个黄色柠檬、成三角，但前方柠檬压住左后方轮廓，两个后方柠檬也很近。"
+      },
+      {
+        "id": "mugs",
+        "pass": true,
+        "note": "右侧2个蓝陶瓷杯，一前一后；前杯遮住后杯部分。"
+      },
+      {
+        "id": "handles",
+        "pass": true,
+        "note": "两杯各见1个朝右杯柄，后柄下缘被前杯挡住。"
+      },
+      {
+        "id": "glass",
+        "pass": false,
+        "note": "中央前方为单一圆柱玻璃杯和一根吸管。水线约六成至三分之二；折射让杯中部分向左偏。"
+      },
+      {
+        "id": "spoon",
+        "pass": true,
+        "note": "唯一银茶匙横放在玻璃杯前，柄朝左、匙头朝右。"
+      },
+      {
+        "id": "physics",
+        "pass": true,
+        "note": "水面处可见单吸管折射偏移，蓝釉和匙面反光可信，阴影方向基本一致。"
+      }
+    ],
+    "observation": "全部物体数量和茶匙方向正确，柠檬和杯子有局部遮挡。蓝杯白色内釉清楚，右前方茶匙略斜仍可辨。",
+    "defects": [
+      "柠檬之间有遮挡",
+      "前蓝杯部分遮挡后蓝杯",
+      "水量高于半杯"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t04-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t04-r1-D",
+    "task_id": "t04",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "lemons",
+        "pass": false,
+        "note": "左侧确为3个黄色柠檬、成三角，但前柠檬遮住后方两只的部分轮廓。"
+      },
+      {
+        "id": "mugs",
+        "pass": true,
+        "note": "右侧2个蓝陶瓷杯，一前一后；前杯遮住后杯部分。"
+      },
+      {
+        "id": "handles",
+        "pass": true,
+        "note": "两杯各见1个朝右杯柄，后柄下缘被前杯挡住。"
+      },
+      {
+        "id": "glass",
+        "pass": false,
+        "note": "中央前方为单一圆柱玻璃杯和一根吸管。玻璃水位约六成至三分之二；折射令吸管水下段偏移、色浅。"
+      },
+      {
+        "id": "spoon",
+        "pass": true,
+        "note": "唯一银茶匙横放在玻璃杯前，柄朝左、匙头朝右。"
+      },
+      {
+        "id": "physics",
+        "pass": true,
+        "note": "水面处可见单吸管折射偏移，蓝釉和匙面反光可信，阴影方向基本一致。"
+      }
+    ],
+    "observation": "全部物体数量和茶匙方向正确，柠檬和杯子有局部遮挡。蓝杯和茶匙的阴影方向一致，未见多余物品。",
+    "defects": [
+      "柠檬之间有遮挡",
+      "前蓝杯部分遮挡后蓝杯",
+      "水量高于半杯"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t04-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t04-r1-E",
+    "task_id": "t04",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "lemons",
+        "pass": false,
+        "note": "左侧确为3个黄色柠檬、成三角，但前柠檬遮住两个后方柠檬的局部轮廓。"
+      },
+      {
+        "id": "mugs",
+        "pass": true,
+        "note": "右侧2个蓝陶瓷杯，一前一后；前杯遮住后杯部分。"
+      },
+      {
+        "id": "handles",
+        "pass": true,
+        "note": "两杯各见1个朝右杯柄，后柄下缘被前杯挡住。"
+      },
+      {
+        "id": "glass",
+        "pass": false,
+        "note": "中央前方为单一圆柱玻璃杯和一根吸管。水线约六成至三分之二；红吸管在水面出现偏移。"
+      },
+      {
+        "id": "spoon",
+        "pass": true,
+        "note": "唯一银茶匙横放在玻璃杯前，柄朝左、匙头朝右。"
+      },
+      {
+        "id": "physics",
+        "pass": true,
+        "note": "水面处可见单吸管折射偏移，蓝釉和匙面反光可信，阴影方向基本一致。"
+      }
+    ],
+    "observation": "全部物体数量和茶匙方向正确，柠檬和杯子有局部遮挡。长玻璃阴影中能看到焦散，后蓝杯部分被前杯遮挡。",
+    "defects": [
+      "柠檬之间有遮挡",
+      "前蓝杯部分遮挡后蓝杯",
+      "水量高于半杯"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t04-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t05-r1-A",
+    "task_id": "t05",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼鼻唇、下颌与参考近，画面左侧嘴角下小痣清楚。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗齐肩发、透薄刘海，双颊留少量皮肤纹理。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽松西装、白圆领T恤、黑裤，旧衣未保留。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅坐姿并回望镜头，躯干与双膝主要朝画面右侧。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝盖上；握柄、伞骨和可见手指结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "玻璃站亭、湿地和蓝橙色街灯都可辨；单人，无可读字。"
+      }
+    ],
+    "observation": "脸部与参考接近，左手持伞，右手搭膝。身体主要朝画面右侧，和指定的画面左侧相反。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t05-r1-B",
+    "task_id": "t05",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "细长眼形、鼻与嘴唇轮廓与参考接近，嘴角小痣位置对应。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗齐肩、薄刘海和自然皮肤过渡可见。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽松西装、白圆领T恤、黑裤，旧衣未保留。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "坐在长椅回看镜头，但躯干向画面右，两膝在透视中重叠。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握白钩柄，右手搭膝；两手和透明伞可辨。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "玻璃站亭、湿地和蓝橙色街灯都可辨；单人，无可读字。"
+      }
+    ],
+    "observation": "衣着、湿地夜景与指定的持伞手均符合。身体转向画面右侧，两膝在该角度下互相遮挡。",
+    "defects": [
+      "身体转向画面右侧",
+      "两膝局部遮挡"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t05-r1-C",
+    "task_id": "t05",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 3,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼、鼻、嘴及画面左嘴角下的小痣都与参考接近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "齐肩栗色发、轻薄刘海与皮肤纹理可见。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽松西装、白圆领T恤、黑裤，旧衣未保留。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "人在站亭长椅坐着并回看，躯干、叠放的膝向画面右侧。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手放膝上；工具与手指边缘可分。"
+      },
+      {
+        "id": "scene",
+        "pass": false,
+        "note": "单人雨夜站亭、湿地和蓝橙灯，无可读字；持伞指头局部黄亮得突兀。"
+      }
+    ],
+    "observation": "服装和身份特征清楚，人物主要朝画面右侧，腿部重叠。持伞手的几根指头出现较突兀的饱和黄色高光。",
+    "defects": [
+      "身体转向画面右侧",
+      "两膝局部遮挡",
+      "持伞手局部偏黄"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t05-r1-D",
+    "task_id": "t05",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼鼻、嘴唇轮廓和嘴角痣位置与参考相近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "齐肩栗发、轻薄刘海与皮肤细节清楚。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽松西装、白圆领T恤、黑裤，旧衣未保留。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅坐姿回看镜头；两膝和躯干主要转向画面右侧。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握伞，右手放在膝前；白弯柄、银杆与透明伞骨连续。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "玻璃站亭、湿地和蓝橙色街灯都可辨；单人，无可读字。"
+      }
+    ],
+    "observation": "左右手分工正确，雨伞和湿地反光连贯，双膝可辨。躯干实际转向画面右侧。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t05-r1-E",
+    "task_id": "t05",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "脸型、眼鼻与嘴角小痣和参考一致，正面眼神平静。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗齐肩，薄刘海和微小皮肤纹理清楚。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽松西装、白圆领T恤、黑裤，旧衣未保留。"
+      },
+      {
+        "id": "pose",
+        "pass": true,
+        "note": "长椅坐姿，双膝与身体向画面左斜，脸回看镜头。"
+      },
+      {
+        "id": "hands",
+        "pass": false,
+        "note": "实际为人物右手握透明伞，左手搭在膝上；手指及伞结构本身合理。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "玻璃站亭、湿地和蓝橙色街灯都可辨；单人，无可读字。"
+      }
+    ],
+    "observation": "身体按要求转向画面左，右手却握住了伞，左手搭膝。衣服与雨夜站亭光线融合自然。",
+    "defects": [
+      "持伞和搭膝的左右手互换"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t05-r2-A",
+    "task_id": "t05",
+    "round": 2,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼鼻唇、脸型和画面左嘴角下小痣与参考近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "齐肩栗发、薄刘海和少量脸部肌理可见。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "海军蓝宽西装、纯白圆领T和黑色长裤齐全。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "玻璃亭长椅上坐着回望，双腿与躯干仍偏向画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝部；可见手指和伞的主体结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "一人，玻璃亭、湿地与蓝橙灯反光相容，未见可读文字。"
+      }
+    ],
+    "observation": "脸与持伞手位置清楚；近膝占据下方，坐姿朝画面右。伞上水滴和湿地反光自然。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r2-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t05-r2-B",
+    "task_id": "t05",
+    "round": 2,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "画面左嘴角下小痣和参考位置对应，眼鼻轮廓近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗色齐肩发与薄刘海保留，面部保有细小纹理。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "海军蓝宽西装、纯白圆领T和黑色长裤齐全。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "坐蓝色长椅，脸望镜头；躯干及膝都转向画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝部；可见手指和伞的主体结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "单人，湿玻璃和道路有蓝橙车灯反光，无可读文字。"
+      }
+    ],
+    "observation": "蓝长椅、玻璃站亭和雨后车灯构成完整夜景。左手持伞、右手搭膝，但身体向画面右转。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r2-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t05-r2-C",
+    "task_id": "t05",
+    "round": 2,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "五官比例、嘴角痣和参考相近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "薄刘海、齐肩栗发和真实肤质均在。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "海军蓝宽西装、纯白圆领T和黑色长裤齐全。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "坐长椅向右，脸回看；两膝朝右侧。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝部；可见手指和伞的主体结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "雨后公交亭氛围，单人、远处蓝橙灯均虚化且无可读文字。"
+      }
+    ],
+    "observation": "两膝和左右手分工可见，人物和服装细节接近要求。身体转向画面右侧，背景的灯光和湿地反射连贯。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r2-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t05-r2-D",
+    "task_id": "t05",
+    "round": 2,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼形、鼻唇和画面左嘴角下小痣均对应参考。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "栗色齐肩、薄刘海和皮肤纹理可辨。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "海军蓝宽西装、纯白圆领T和黑色长裤齐全。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅坐姿回看镜头，身体及腿斜朝画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝部；可见手指和伞的主体结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "单人坐在有玻璃与木椅的雨夜站亭，冷暖反光均可见，无可读字。"
+      }
+    ],
+    "observation": "伞杆、透明伞面和手部接触合理，右手搭膝。身体主要向画面右侧，木椅和伞面雨水清楚。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r2-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t05-r2-E",
+    "task_id": "t05",
+    "round": 2,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼鼻唇、嘴角下小痣和骨相接近参考。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗齐肩发、轻薄刘海及面部细纹可辨。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "海军蓝宽西装、纯白圆领T和黑色长裤齐全。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅上侧坐回看，躯干和双膝斜向画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭在膝部；可见手指和伞的主体结构可信。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "单人雨夜站亭，地面蓝橙反光，与伞、发丝边光相容；无可读文字。"
+      }
+    ],
+    "observation": "腿部和两手均可辨，持伞手符合要求。身体仍偏向画面右；面部和雨滴亮面与现场暖光相容。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r2-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t05-r3-A",
+    "task_id": "t05",
+    "round": 3,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 3,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "脸型与眼鼻唇接近参考，画面左侧嘴角小痣可辨。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "齐肩深栗发、薄刘海，肤质保留。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽西装、白色圆领T恤、黑长裤均在。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅坐姿回看镜头，躯干、膝部朝画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": false,
+        "note": "左手持伞、右手搭膝；放大后，拇指和四根握柄指以外，伞杆另一侧还突出一段异常的指形。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "站亭、夜雨与冷暖灯反光可见，未见其他人物或可读文字。"
+      }
+    ],
+    "observation": "脸部、衣着和站亭夜景很接近任务；身体转向画面右侧。持伞手在黑伞杆背面多出突兀的指状部分。",
+    "defects": [
+      "身体转向画面右侧",
+      "持伞手有多余指状突起"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r3-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t05-r3-B",
+    "task_id": "t05",
+    "round": 3,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼形、鼻唇、脸型与嘴角小痣接近参考。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "齐肩栗发、薄刘海和轻微肤质纹理可辨。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽西装、白色圆领T恤、黑长裤均在。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "蓝长椅坐姿、回看镜头成立，躯干和膝部斜朝画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭膝，手与伞结构大体自然。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "单人、玻璃公交亭、湿地、冷暖反光均有，未见可读文字。"
+      }
+    ],
+    "observation": "站亭与反光构成雨后夜景；透明伞和左右手分工可辨。身体仍向画面右转。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r3-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t05-r3-C",
+    "task_id": "t05",
+    "round": 3,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "嘴角下小痣和眼鼻唇轮廓与参考一致度高。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "栗色齐肩，薄刘海和双颊肤质清楚。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽西装、白色圆领T恤、黑长裤均在。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "坐在蓝长椅回看镜头，身体和膝主要朝画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭膝，手与伞结构大体自然。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "站亭、虚化车尾灯和湿路反射连贯，未见额外人物或可读文字。"
+      }
+    ],
+    "observation": "近景可看清衣料、伞骨和手的接触，背景有冷暖反光。躯干和腿的方向是画面右。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r3-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t05-r3-D",
+    "task_id": "t05",
+    "round": 3,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 3,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼形、唇形、鼻型和嘴角小痣都与参考接近。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "深栗发落在肩部，薄刘海，脸部有少量肌理。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽西装、白色圆领T恤、黑长裤均在。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "长椅回望镜头；躯干和膝向画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": false,
+        "note": "左手持透明伞、右手搭膝正确；底边裁到右手数个指尖。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "玻璃亭、单人、湿地和蓝橙灯成立，未见可读文字。"
+      }
+    ],
+    "observation": "亮面透明伞和背景湿地相容，身体向画面右。画幅过紧，搭膝手指尖未完整入画。",
+    "defects": [
+      "身体转向画面右侧",
+      "搭膝手指尖出框"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r3-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t05-r3-E",
+    "task_id": "t05",
+    "round": 3,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "脸型、眼鼻唇和左画面嘴角下小痣接近参考。"
+      },
+      {
+        "id": "hair",
+        "pass": true,
+        "note": "保留齐肩栗色直发、轻薄刘海和自然肤质。"
+      },
+      {
+        "id": "costume",
+        "pass": true,
+        "note": "深海军蓝宽西装、白色圆领T恤、黑长裤均在。"
+      },
+      {
+        "id": "pose",
+        "pass": false,
+        "note": "坐在玻璃亭长椅上回望，身体和膝部朝画面右。"
+      },
+      {
+        "id": "hands",
+        "pass": true,
+        "note": "左手握透明伞，右手搭膝，手与伞结构大体自然。"
+      },
+      {
+        "id": "scene",
+        "pass": null,
+        "note": "雨夜玻璃亭和蓝橙反光成立；背景有深色模糊竖影，不能确认是人影还是街道物体；未见可读字。"
+      }
+    ],
+    "observation": "夜景照亮发丝和西装，左手持伞与右手搭膝均清楚。身体偏向画面右，伞杆右后的模糊暗影无法确定内容。",
+    "defects": [
+      "身体转向画面右侧"
+    ],
+    "review_confidence": "medium",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t05-r3-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t06-r1-A",
+    "task_id": "t06",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "深钴蓝皮面成立；连接肩带的侧皮件也被改蓝。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "白色符号竖排且像几何笔画，不是可读RIN；也不在包盖左侧。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "长肩带仍浅棕，侧皮件和包扣细节变化。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "痣和身份相近；眉眼、唇纹和刘海发丝有轻微重绘。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "总体姿态保持；靠包的手与鞋面蝴蝶结局部细节有改变。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "主体位置近似，石墙细粒和远景纹理略变；输出高1535 px。"
+      }
+    ],
+    "observation": "包身确实变蓝，但新增白字像竖排符号。整体构图接近原图，细看包扣和脸部等局部都有变化。",
+    "defects": [
+      "包盖文字错误",
+      "侧连接片被改蓝",
+      "受保护细节有轻微重绘",
+      "输出高度少1 px"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t06-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t06-r1-B",
+    "task_id": "t06",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包面是深蓝皮革，但原浅棕扣带也变蓝。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "左侧清楚写RIN，右侧还有近似AN的额外白字。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "长肩带仍浅棕；侧连接片和前扣色泽形态变化。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "嘴角痣保留，眼形、脸部肤色与刘海线条有轻微变化。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "风衣和步态整体接近；裙褶边缘、鞋面细节重画。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "石墙颗粒、花朵轮廓和细影有差异；输出高1535 px。"
+      }
+    ],
+    "observation": "包盖左侧有正确RIN，同时在其右侧生成额外字形。原浅棕前扣被改成蓝，人物位置整体相近。",
+    "defects": [
+      "额外白字",
+      "包扣重着色",
+      "受保护细节有轻微重绘",
+      "输出高度少1 px"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t06-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t06-r1-C",
+    "task_id": "t06",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "color",
+        "pass": true,
+        "note": "深钴蓝包身，仍见皮革纹理；扣带和长肩带未跟着着色。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "左边类似RIN但细笔画歪扭，右边有多余白符号。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "肩带和扣带仍棕，扣带末端和扣件结构细节有变化。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "痣与大致神情保留；眼神、眼周纹理和头发有轻微重绘。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "原图包旁手指藏在包盖后，结果中至少两指明显移到包盖前；鞋和裙边也有细小变化。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "墙面和花景细部有变化；位置基本相同，输出高1535 px。"
+      }
+    ],
+    "observation": "包旁手部漂移最明显：原图包盖挡住的手指出现在包盖上。左侧白字有变形，扣带右边还多出白色笔画。",
+    "defects": [
+      "包旁手指位置明显变化",
+      "包盖文字变形并有额外白符号",
+      "输出高度少1 px"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t06-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t06-r1-D",
+    "task_id": "t06",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "蓝色皮革包面成功，前扣带也被改蓝。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "包身下半部只有几道弯曲白痕，包盖左上无可读RIN。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "长带仍浅棕，前扣带与侧连接件变蓝，五金形态有差别。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "嘴角痣相近，唇形、眼周与额发细节有轻微漂移。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "主体步态接近，裙摆和鞋面纹样不同，手部纹理也有轻微变化。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "1536 px高和主体位置保留，花树虚化、墙面和地面细纹变化。"
+      }
+    ],
+    "observation": "画面尺度保持，主包改蓝。但原来的前扣带同时变蓝，包身下部只出现几道弯曲的白痕。",
+    "defects": [
+      "缺少正确RIN",
+      "扣带和侧连接件改蓝",
+      "受保护区域有轻微重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t06-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t06-r1-E",
+    "task_id": "t06",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": true,
+        "note": "主体包面是深钴蓝皮革，棕肩带与扣带颜色仍在。"
+      },
+      {
+        "id": "letters",
+        "pass": true,
+        "note": "包盖左侧空白处可读RIN，未压住扣带。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "长肩带与前扣带保留浅棕，包盖转角和小块金属扣形有变。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "脸型及痣接近，部分发丝、眼神反光和嘴角细节变化。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "步态和轮廓维持；放下的手相近，鞋面和裙褶仍有细微变化。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "全尺寸和整体光位保持，部分墙面纹理和地面细影改变。"
+      }
+    ],
+    "observation": "左侧可读的RIN和深钴蓝包面同时实现，前扣带仍为浅棕。大构图很接近，但并非逐区域原样保留。",
+    "defects": [
+      "包扣五金细节改变",
+      "发丝、鞋面和墙面细纹有细微重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t06-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t07-r1-A",
+    "task_id": "t07",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "filled",
+        "pass": true,
+        "note": "1536×1024，左右扩展到边，没有透明或黑色空白。"
+      },
+      {
+        "id": "person",
+        "pass": true,
+        "note": "人物原来的位置、大小大致保持，单人头脚完整。"
+      },
+      {
+        "id": "center",
+        "pass": false,
+        "note": "中心大体接近参考；面部纹理、指尖、鞋面和局部地影未原样保留。"
+      },
+      {
+        "id": "seams",
+        "pass": true,
+        "note": "原图边界附近未见明显竖缝或模糊带。"
+      },
+      {
+        "id": "geometry",
+        "pass": true,
+        "note": "石墙横向接缝、右侧步道与盲道线朝相容的远端延伸。"
+      },
+      {
+        "id": "texture",
+        "pass": true,
+        "note": "树影方向相容，新增花叶未见明显重复图块。"
+      }
+    ],
+    "observation": "石墙在左自然延伸，右侧新增树列及盲道。中央位置很接近原图，但鞋面、手和局部地面仍可见重绘。",
+    "defects": [
+      "中央保护区部分细节有重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t07-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t07-r1-B",
+    "task_id": "t07",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 2,
+    "visual": 4,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "filled",
+        "pass": true,
+        "note": "1536×1024，左右扩展到边，没有透明或黑色空白。"
+      },
+      {
+        "id": "person",
+        "pass": false,
+        "note": "单人头脚完整；肩、裙边和鞋底向上移动，人物略缩小。"
+      },
+      {
+        "id": "center",
+        "pass": false,
+        "note": "肤色偏暖，裙摆缩短、手和鞋重新绘制；中央铺装与光影亦变。"
+      },
+      {
+        "id": "seams",
+        "pass": true,
+        "note": "原图边界附近未见明显竖缝或模糊带。"
+      },
+      {
+        "id": "geometry",
+        "pass": true,
+        "note": "石墙和步道向同一消失区延伸，边缘整体连贯。"
+      },
+      {
+        "id": "texture",
+        "pass": true,
+        "note": "日光和树影相容，新增花树未见明显克隆。"
+      }
+    ],
+    "observation": "横图两侧完整、无显眼拼缝。人物整体变小，鞋底抬高，露出的腿及垂手肤色更暖，中央人物未原样保留。",
+    "defects": [
+      "中央人物位置与尺度改变",
+      "肤色、服装和地面重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t07-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t07-r1-C",
+    "task_id": "t07",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 2,
+    "visual": 4,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "filled",
+        "pass": true,
+        "note": "1536×1024，左右扩展到边，没有透明或黑色空白。"
+      },
+      {
+        "id": "person",
+        "pass": true,
+        "note": "人物原来的位置、大小大致保持，单人头脚完整。"
+      },
+      {
+        "id": "center",
+        "pass": false,
+        "note": "面部及衣物小细节重绘；中央原步道的长段明暗条纹和铺砖线明显改变。"
+      },
+      {
+        "id": "seams",
+        "pass": true,
+        "note": "原图边界附近未见明显竖缝或模糊带。"
+      },
+      {
+        "id": "geometry",
+        "pass": true,
+        "note": "两侧石墙、建筑和树列与步道透视大体一致。"
+      },
+      {
+        "id": "texture",
+        "pass": true,
+        "note": "光向合理，新增右侧绿树有可辨的个体差异。"
+      }
+    ],
+    "observation": "左墙与右侧新添的建筑、绿树构成完整街景。人物轮廓仍接近原尺寸，中央右侧大段路面和树影有明显重绘。",
+    "defects": [
+      "中央保护区的路面纹理与阴影改动"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t07-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t07-r1-D",
+    "task_id": "t07",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "filled",
+        "pass": true,
+        "note": "1536×1024，左右扩展到边，没有透明或黑色空白。"
+      },
+      {
+        "id": "person",
+        "pass": true,
+        "note": "人物原来的位置、大小大致保持，单人头脚完整。"
+      },
+      {
+        "id": "center",
+        "pass": false,
+        "note": "中央脸部、手、裙褶、鞋与局部背景纹理有差异，原构图和大形接近。"
+      },
+      {
+        "id": "seams",
+        "pass": true,
+        "note": "原图边界附近未见明显竖缝或模糊带。"
+      },
+      {
+        "id": "geometry",
+        "pass": true,
+        "note": "石墙上沿接到原景，右侧车道与人行道走向合理。"
+      },
+      {
+        "id": "texture",
+        "pass": true,
+        "note": "左前花丛和右侧行道树在同样日光下，未见克隆纹理。"
+      }
+    ],
+    "observation": "左右延伸出花墙和路侧树列，人物尺度接近参考。中央脸、手及局部铺装细节发生细小变化。",
+    "defects": [
+      "中央保护区部分细节有重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t07-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t07-r1-E",
+    "task_id": "t07",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 2,
+    "visual": 4,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "filled",
+        "pass": true,
+        "note": "1536×1024，左右扩展到边，没有透明或黑色空白。"
+      },
+      {
+        "id": "person",
+        "pass": true,
+        "note": "人物原来的位置、大小大致保持，单人头脚完整。"
+      },
+      {
+        "id": "center",
+        "pass": false,
+        "note": "面部、鞋面与裙摆有轻微变化，中央人行道树影的宽度和轮廓明显改变。"
+      },
+      {
+        "id": "seams",
+        "pass": true,
+        "note": "原图边界附近未见明显竖缝或模糊带。"
+      },
+      {
+        "id": "geometry",
+        "pass": true,
+        "note": "左侧石墙、右侧人行道及路桩的消失方向协调。"
+      },
+      {
+        "id": "texture",
+        "pass": true,
+        "note": "花树与落花自然，日光方向和影子没有明显断裂。"
+      }
+    ],
+    "observation": "左边白花和右侧粉色行道树自然补齐了画面，未见直缝。中央的树影图案已明显更换，鞋与面部也略有差别。",
+    "defects": [
+      "中央保护区的树影和局部铺装重绘"
+    ],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t07-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t08-r1-A",
+    "task_id": "t08",
+    "round": 1,
+    "label": "A",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "参考的眼、鼻、唇、嘴角下小痣和薄刘海清楚。"
+      },
+      {
+        "id": "top",
+        "pass": true,
+        "note": "米白V领裹身长袖与侧腰长系带符合穿搭参考。"
+      },
+      {
+        "id": "bottom",
+        "pass": true,
+        "note": "深棕百褶裙、双侧白袜口和深棕及膝靴均可辨。"
+      },
+      {
+        "id": "accessories",
+        "pass": true,
+        "note": "棕色肩包、金色小圆坠与金耳圈；右手扶带，左手放松垂下。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "黑金属框大玻璃、暖吊灯、绿叶与玻璃反光同时可见。"
+      },
+      {
+        "id": "integration",
+        "pass": true,
+        "note": "单人居中，头顶和双靴底在画框内；日光与暖窗光衔接。"
+      }
+    ],
+    "observation": "人物、服饰和店窗构成一张连贯的全身照片，双靴贴地且完整。左侧暖灯和右侧玻璃绿植反光都保留了参考线索。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t08-r1-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t08-r1-B",
+    "task_id": "t08",
+    "round": 1,
+    "label": "B",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "嘴角下小痣位置对应，脸部骨相、栗色齐肩发和薄刘海与参考近。"
+      },
+      {
+        "id": "top",
+        "pass": true,
+        "note": "米白V领裹身长袖与侧腰长系带符合穿搭参考。"
+      },
+      {
+        "id": "bottom",
+        "pass": true,
+        "note": "深棕百褶裙、双侧白袜口和深棕及膝靴均可辨。"
+      },
+      {
+        "id": "accessories",
+        "pass": true,
+        "note": "右手扶棕包肩带，左手垂放；金色项链与耳圈可见。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "黑金属框大玻璃、暖吊灯、绿叶与玻璃反光同时可见。"
+      },
+      {
+        "id": "integration",
+        "pass": true,
+        "note": "人物居中，双靴与头顶完整，衣物和窗面日光方向协调。"
+      }
+    ],
+    "observation": "V领针织裹身和裙褶的纹理清楚，白袜口与两只棕靴底均可见。人物肩头的亮面与店窗和地面光向协调。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t08-r1-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t08-r1-C",
+    "task_id": "t08",
+    "round": 1,
+    "label": "C",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼形、唇形、嘴角痣与参考接近，深栗薄刘海清楚。"
+      },
+      {
+        "id": "top",
+        "pass": true,
+        "note": "米白V领裹身长袖与侧腰长系带符合穿搭参考。"
+      },
+      {
+        "id": "bottom",
+        "pass": true,
+        "note": "深棕百褶裙、双侧白袜口和深棕及膝靴均可辨。"
+      },
+      {
+        "id": "accessories",
+        "pass": true,
+        "note": "左手扶棕包带，右手下垂；有金色吊坠与耳饰。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "黑金属框大玻璃、暖吊灯、绿叶与玻璃反光同时可见。"
+      },
+      {
+        "id": "integration",
+        "pass": true,
+        "note": "单人全身，靴子前后略叠但两端未出框，窗外日光与吊灯暖光自然。"
+      }
+    ],
+    "observation": "人物一脚在前，两只靴底都在画面内；服装各件齐全。多盏暖灯和窗面绿叶反光均可辨。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t08-r1-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t08-r1-D",
+    "task_id": "t08",
+    "round": 1,
+    "label": "D",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "眼鼻唇和嘴角痣位置接近参考；薄刘海与栗色齐肩发保留。"
+      },
+      {
+        "id": "top",
+        "pass": true,
+        "note": "米白V领长袖和侧腰系带都在，上衣表面比参考略平滑。"
+      },
+      {
+        "id": "bottom",
+        "pass": true,
+        "note": "深棕百褶裙、双侧白袜口和深棕及膝靴均可辨。"
+      },
+      {
+        "id": "accessories",
+        "pass": true,
+        "note": "棕肩包、金项链、耳饰齐全，左手扶带、右手下垂。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "黑金属框大玻璃、暖吊灯、绿叶与玻璃反光同时可见。"
+      },
+      {
+        "id": "integration",
+        "pass": true,
+        "note": "单人全身与靴底完整，窗下墙体和人物周围有连续自然树影。"
+      }
+    ],
+    "observation": "窗边站姿和参考服装各层清楚。上衣质地比服装图平滑，V领、长袖和侧系带的结构仍对应。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t08-r1-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t08-r1-E",
+    "task_id": "t08",
+    "round": 1,
+    "label": "E",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "identity",
+        "pass": true,
+        "note": "脸型、眼鼻、嘴角小痣与参考相近；薄刘海和深栗齐肩发可见。"
+      },
+      {
+        "id": "top",
+        "pass": true,
+        "note": "米白V领裹身长袖与侧腰长系带符合穿搭参考。"
+      },
+      {
+        "id": "bottom",
+        "pass": true,
+        "note": "深棕百褶裙、双侧白袜口和深棕及膝靴均可辨。"
+      },
+      {
+        "id": "accessories",
+        "pass": true,
+        "note": "棕色肩包、金耳圈与金项链均可见，左手扶带、右手垂放。"
+      },
+      {
+        "id": "scene",
+        "pass": true,
+        "note": "黑金属框大玻璃、暖吊灯、绿叶与玻璃反光同时可见。"
+      },
+      {
+        "id": "integration",
+        "pass": true,
+        "note": "人物居中、只有一人，头顶和两只棕靴脚尖底线都在画面内；整体光线融合。"
+      }
+    ],
+    "observation": "黑框玻璃与灯光、叶面倒影都有对应。人物双靴前后相叠但都在画面内，服饰和配饰齐全。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "primary_anonymous_reviewer",
+    "sample_id": "t08-r1-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t03-r2-A",
+    "task_id": "t03",
+    "round": 2,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约53px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "银杏与右侧建筑占据中部，粗体日期下方分排地点、短句与品牌。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r2-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t03-r2-B",
+    "task_id": "t03",
+    "round": 2,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约51px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "弧形橙色划线分隔题头，短句用手写体，品牌单列在下方。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r2-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t03-r2-C",
+    "task_id": "t03",
+    "round": 2,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约35px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "中段是建筑、路灯与成枝银杏，底部文字区干净；品牌紧贴底部安全区。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r2-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t03-r2-D",
+    "task_id": "t03",
+    "round": 2,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约60px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "细分隔线和银杏图标划分层级，斜体短句与小号署名分别独立成行。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r2-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t03-r2-E",
+    "task_id": "t03",
+    "round": 2,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约65px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "街道纵深清楚，日期和地点集中排版，短句和加字距的品牌署名单独成行。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r2-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t06-r2-A",
+    "task_id": "t06",
+    "round": 2,
+    "label": "A",
+    "status": "success",
+    "instruction": 2,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身呈钴蓝且有皮革纹理，但包盖上还增加一条贯穿的浅棕竖带。"
+      },
+      {
+        "id": "letters",
+        "pass": true,
+        "note": "包盖左上可读白色RIN，未压住竖带。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "原先短扣带被延长到盖顶，侧连接件和肩带光色也发生变化。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "五官、表情、发型与小痣可辨；耳饰另由小金圈变为圆点。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "双手姿势、风衣系带、裙与鞋保持原构图和形态。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "树干、石栏、道路阴影和人物落点保持。"
+      }
+    ],
+    "observation": "蓝皮面和左上RIN清楚。与原图对照，包盖新出现贯穿竖带，金圈耳饰被替换成浅色圆点。",
+    "defects": [
+      "增加贯穿包盖的棕色竖带",
+      "非目标耳饰改变"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r2-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t06-r2-B",
+    "task_id": "t06",
+    "round": 2,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身为有反光的深蓝皮革，但长肩带和扣带也明显加深偏红。"
+      },
+      {
+        "id": "letters",
+        "pass": true,
+        "note": "左上白色RIN三字母清楚，未覆盖扣带。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "包形与扣带位置接近原图，但肩带由浅棕变为偏红棕，扣带光色也变深。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "表情、刘海、嘴角小痣及耳圈保持。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "手势、腰带、绿色外衣、白裙和鞋未见可辨结构改变。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "街道透视、人物位置和日光阴影一致。"
+      }
+    ],
+    "observation": "小号RIN落在包盖左上，包身为偏深藏蓝。长肩带和扣带比原图明显偏红棕。",
+    "defects": [
+      "肩带和扣带色偏"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r2-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t06-r2-C",
+    "task_id": "t06",
+    "round": 2,
+    "label": "C",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "蓝皮面仍有反光，但另有新棕条和变蓝的侧连接部件。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "左上字形断笔，右侧另有一小组白色字符状笔画。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "短扣带上端被延长为贯穿包盖的竖带，侧连接处颜色也改变。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "眼鼻嘴形、刘海及嘴角小痣与原图接近。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "手、衣摆、白裙、鞋和步态位置与原图对应。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "石栏、花树和铺装阴影位置一致。"
+      }
+    ],
+    "observation": "蓝包能辨，包盖左字形失真、右侧有额外小白笔画，棕扣带被画长到包盖上缘。",
+    "defects": [
+      "包盖字形错误并有额外笔画",
+      "扣带结构改变"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r2-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t06-r2-D",
+    "task_id": "t06",
+    "round": 2,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身有深蓝皮面光泽，但原浅棕短扣带也被改蓝。"
+      },
+      {
+        "id": "letters",
+        "pass": true,
+        "note": "斜置白色RIN三字母可逐一辨认，位于左侧空白。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "浅棕长肩带和主要轮廓保留，但短扣带及侧挂片变为深蓝。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "五官表情、刘海、小痣和耳环保持原样。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "双手、衣裙鞋和姿态未见明显改动。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "背景树、石栏、光影及取景保持。"
+      }
+    ],
+    "observation": "包盖左侧斜放的RIN清楚，深蓝皮面与原来的包形接近；短扣带和侧挂片也被染蓝。",
+    "defects": [
+      "扣带与侧挂片被染蓝"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r2-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t06-r2-E",
+    "task_id": "t06",
+    "round": 2,
+    "label": "E",
+    "status": "success",
+    "instruction": 4,
+    "visual": 4,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "color",
+        "pass": true,
+        "note": "深蓝落在包盖和包身皮面，皮面细纹和局部高光仍可辨。"
+      },
+      {
+        "id": "letters",
+        "pass": true,
+        "note": "白色RIN字形完整，在包盖左上方空白、没有盖住扣带。"
+      },
+      {
+        "id": "bag",
+        "pass": true,
+        "note": "长带和短扣带保持浅棕，金属环、包盖外轮廓和挂包位置基本一致。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "嘴角小痣、刘海、耳圈和表情都可对上。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "手势、风衣、白裙、鞋和站位高度一致。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "花树、栏墙、路面阴影与原取景一致，仅有轻微亮度差。"
+      }
+    ],
+    "observation": "蓝色皮面与白色RIN分明；浅棕长带、扣带及其他场景保留较好。署名字号比部分样本大但没有遮挡扣带。",
+    "defects": [],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r2-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t03-r3-A",
+    "task_id": "t03",
+    "round": 3,
+    "label": "A",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约52px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "中段以右侧建筑和左侧银杏分隔留白，底部手写短句与两侧横线夹出的署名清楚。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r3-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t03-r3-B",
+    "task_id": "t03",
+    "round": 3,
+    "label": "B",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约54px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "横线分开标题和插画，底部四行信息清晰，字号层级明确。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r3-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t03-r3-C",
+    "task_id": "t03",
+    "round": 3,
+    "label": "C",
+    "status": "success",
+    "instruction": 3,
+    "visual": 3,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约56px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "标题字仍可辨为“末”，但左下撇内部有一块明显浅色渐变；下方活动文字清楚。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "标题“末”左下笔画有局部褪色",
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r3-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t03-r3-D",
+    "task_id": "t03",
+    "round": 3,
+    "label": "D",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约43px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "街树与透视建筑铺开在中部，四行下半部文字互不重叠，署名紧邻底部安全区。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r3-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t03-r3-E",
+    "task_id": "t03",
+    "round": 3,
+    "label": "E",
+    "status": "success",
+    "instruction": 3,
+    "visual": 4,
+    "preservation": null,
+    "checks": [
+      {
+        "id": "title",
+        "pass": true,
+        "note": "逐字可读为“把周末还给自己”。"
+      },
+      {
+        "id": "subtitle",
+        "pass": true,
+        "note": "逐字可读为“白石凛的城市散步”。"
+      },
+      {
+        "id": "time",
+        "pass": true,
+        "note": "数字、月日及冒号可读为“11月06日 14:30”。"
+      },
+      {
+        "id": "place",
+        "pass": true,
+        "note": "可读为“集合地点：梧桐路18号”。"
+      },
+      {
+        "id": "footer",
+        "pass": true,
+        "note": "短句有逗号与句号，MUSEFRAME拼写正确；未见额外可辨文字。"
+      },
+      {
+        "id": "layout",
+        "pass": false,
+        "note": "六行次序正确且均未换行，但署名底部余量约50px，少于1536px的5%（约77px）。"
+      }
+    ],
+    "observation": "插画由街道消失点向两侧展开，日期、地点和短句分别成行，署名使用较疏字距。 六行文字可逐字核对，署名未达到指定底边安全边距。",
+    "defects": [
+      "署名底边安全边距不足5%"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t03-r3-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  },
+  {
+    "blind_id": "t06-r3-A",
+    "task_id": "t06",
+    "round": 3,
+    "label": "A",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身深蓝且仍有光泽，但短扣带也改成蓝色。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "包盖两处分开的白色笔画无法组成唯一清楚的RIN。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "扣带改蓝，金色扣件的显露面积和侧挂件形状变化。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "原来的表情、刘海和小痣仍可辨，肤色和唇色比参考偏暖。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "服装轮廓与姿态保持，但垂下的手明显更深、更红。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "街道和树位置未移动，但下半路面较暗，原光色未完全保留。"
+      }
+    ],
+    "observation": "改成了深蓝包，但包盖有两组失真的白色小字符，扣带也变蓝。与参考并排时手部和下半路面更暗。",
+    "defects": [
+      "字样断裂且有额外字符",
+      "扣带变蓝",
+      "手与路面光色改变"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r3-gpt-image-2",
+    "model": "gpt-image-2"
+  },
+  {
+    "blind_id": "t06-r3-B",
+    "task_id": "t06",
+    "round": 3,
+    "label": "B",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身确为钴蓝，长肩带也比参考更亮更橙。"
+      },
+      {
+        "id": "letters",
+        "pass": null,
+        "note": "小字笔画黏连且微弱；uncertain，无法逐字确认是RIN。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "短扣带保留浅棕，但更圆更厚，侧挂片轮廓与长带光色改变。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "小痣、五官位置和发型保留，但面部整体显著提亮。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "衣裙鞋、手形与步态保持同一几何位置。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "街道构图、树栏位置及投影形状保留。"
+      }
+    ],
+    "observation": "蓝包和浅棕扣带清楚，但小字无法确认。面部变亮，肩带与侧挂片也有可见变化。",
+    "defects": [
+      "字样模糊，无法确认RIN",
+      "非目标面部提亮",
+      "肩带和侧挂片偏移"
+    ],
+    "review_confidence": "medium",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r3-gpt-image-2.6-sunburst",
+    "model": "gpt-image-2.6-sunburst"
+  },
+  {
+    "blind_id": "t06-r3-C",
+    "task_id": "t06",
+    "round": 3,
+    "label": "C",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 3,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "钴蓝皮面有亮面反光，但短扣带也全部染蓝。"
+      },
+      {
+        "id": "letters",
+        "pass": null,
+        "note": "左上白色字形小且断裂；uncertain，无法逐字确认RIN。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "短扣带从棕变蓝，侧挂片失去原棕色，肩带颜色偏橙。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "小痣、五官轮廓、表情和发型保留。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "手的位置、风衣、裙和鞋未见明确变化。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "树、石栏、路面阴影与原构图一致。"
+      }
+    ],
+    "observation": "包身和扣带一起变蓝，左上仍有一点白字，但字形不足以确认RIN。人物和街景保持原来的摆位。",
+    "defects": [
+      "扣带变蓝",
+      "字形小且断裂，无法确认"
+    ],
+    "review_confidence": "medium",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r3-gpt-image-2.6-flare",
+    "model": "gpt-image-2.6-flare"
+  },
+  {
+    "blind_id": "t06-r3-D",
+    "task_id": "t06",
+    "round": 3,
+    "label": "D",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 4,
+    "checks": [
+      {
+        "id": "color",
+        "pass": true,
+        "note": "包身蓝色皮革可辨，有贴合原包曲面的光泽；长带和扣带仍为棕色。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "大号白字横跨扣带周围，被扣带分断，不是完整落在左上空白的RIN。"
+      },
+      {
+        "id": "bag",
+        "pass": true,
+        "note": "棕色长带与扣带、金属件和袋形保持得较接近参考。"
+      },
+      {
+        "id": "face",
+        "pass": true,
+        "note": "脸部构图、眼鼻嘴、刘海、表情及小痣近似原图。"
+      },
+      {
+        "id": "clothes",
+        "pass": true,
+        "note": "手、衣摆、裙、鞋和原有姿势都能一一对应。"
+      },
+      {
+        "id": "background",
+        "pass": true,
+        "note": "街景、路面影子和人物位置未见显著变动。"
+      }
+    ],
+    "observation": "蓝色皮面与原有棕色五金带清楚，人物和街景与参考接近。白字太靠下，跨过扣带并断开。",
+    "defects": [
+      "字样过大且跨越扣带"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r3-gpt-image-2.5-sunburst",
+    "model": "gpt-image-2.5-sunburst"
+  },
+  {
+    "blind_id": "t06-r3-E",
+    "task_id": "t06",
+    "round": 3,
+    "label": "E",
+    "status": "success",
+    "instruction": 2,
+    "visual": 3,
+    "preservation": 2,
+    "checks": [
+      {
+        "id": "color",
+        "pass": false,
+        "note": "包身变蓝，但短扣带和侧片也变成偏蓝色。"
+      },
+      {
+        "id": "letters",
+        "pass": false,
+        "note": "左上有近似RIN的白字，下面另有明确的短白字，非唯一三个字母。"
+      },
+      {
+        "id": "bag",
+        "pass": false,
+        "note": "棕色短扣带被改蓝，侧挂片和长带光色变化。"
+      },
+      {
+        "id": "face",
+        "pass": false,
+        "note": "五官、痣和发型仍相近，但面部和唇色明显更暖更红。"
+      },
+      {
+        "id": "clothes",
+        "pass": false,
+        "note": "姿势和服饰轮廓保留，垂下的手较原图偏红，未完整保护。"
+      },
+      {
+        "id": "background",
+        "pass": false,
+        "note": "街景构图基本相同，但背景光色与路面阴影的明暗发生变化。"
+      }
+    ],
+    "observation": "包盖出现两组白字且扣带染蓝。脸、手和周围光色明显较原图偏暖，背景位置仍大体一致。",
+    "defects": [
+      "包盖出现额外白字",
+      "扣带变蓝",
+      "非目标脸、手及场景色调改变"
+    ],
+    "review_confidence": "high",
+    "reviewer": "repeat_anonymous_reviewer",
+    "sample_id": "t06-r3-gpt-image-2.5-flare",
+    "model": "gpt-image-2.5-flare"
+  }
+]

@@ -1,0 +1,430 @@
+{
+  "planned": 70,
+  "recorded": 70,
+  "status_counts": {
+    "success": 70
+  },
+  "first_attempt_only": true,
+  "inputs_verified": true,
+  "unique_success_images": 70,
+  "success_images": 70,
+  "models": [
+    {
+      "model": "gpt-image-2",
+      "requests": 14,
+      "success": 14,
+      "median_seconds": 32.898,
+      "mean_seconds": 44.444,
+      "min_seconds": 17.318,
+      "max_seconds": 156.849,
+      "actual_dimensions_by_task": {
+        "t01": [
+          "[1024, 1536]"
+        ],
+        "t02": [
+          "[1254, 1254]"
+        ],
+        "t03": [
+          "[1024, 1536]"
+        ],
+        "t04": [
+          "[1536, 1024]"
+        ],
+        "t05": [
+          "[1024, 1536]"
+        ],
+        "t06": [
+          "[1024, 1535]",
+          "[1024, 1536]"
+        ],
+        "t07": [
+          "[1536, 1024]"
+        ],
+        "t08": [
+          "[1024, 1536]"
+        ]
+      },
+      "task_mean_scores": {
+        "t01": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": null
+        },
+        "t02": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t03": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t04": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t05": {
+          "instruction": 3,
+          "visual": 3.667,
+          "preservation": 4
+        },
+        "t06": {
+          "instruction": 2,
+          "visual": 3.333,
+          "preservation": 2.667
+        },
+        "t07": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": 3
+        },
+        "t08": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": 4
+        }
+      },
+      "equal_task_mean_scores": {
+        "instruction": 3.125,
+        "visual": 3.875,
+        "preservation": 3.417
+      }
+    },
+    {
+      "model": "gpt-image-2.5-flare",
+      "requests": 14,
+      "success": 14,
+      "median_seconds": 33.297,
+      "mean_seconds": 39.828,
+      "min_seconds": 25.049,
+      "max_seconds": 65.713,
+      "actual_dimensions_by_task": {
+        "t01": [
+          "[1024, 1536]"
+        ],
+        "t02": [
+          "[1254, 1254]"
+        ],
+        "t03": [
+          "[1024, 1536]"
+        ],
+        "t04": [
+          "[1536, 1024]"
+        ],
+        "t05": [
+          "[1024, 1536]"
+        ],
+        "t06": [
+          "[1024, 1535]",
+          "[1024, 1536]"
+        ],
+        "t07": [
+          "[1536, 1024]"
+        ],
+        "t08": [
+          "[1024, 1536]"
+        ]
+      },
+      "task_mean_scores": {
+        "t01": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": null
+        },
+        "t02": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t03": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t04": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t05": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": 4
+        },
+        "t06": {
+          "instruction": 3,
+          "visual": 3.667,
+          "preservation": 3
+        },
+        "t07": {
+          "instruction": 2,
+          "visual": 4,
+          "preservation": 2
+        },
+        "t08": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": 4
+        }
+      },
+      "equal_task_mean_scores": {
+        "instruction": 3.125,
+        "visual": 3.958,
+        "preservation": 3.25
+      }
+    },
+    {
+      "model": "gpt-image-2.5-sunburst",
+      "requests": 14,
+      "success": 14,
+      "median_seconds": 37.992,
+      "mean_seconds": 37.702,
+      "min_seconds": 16.88,
+      "max_seconds": 56.749,
+      "actual_dimensions_by_task": {
+        "t01": [
+          "[1024, 1536]"
+        ],
+        "t02": [
+          "[1254, 1254]"
+        ],
+        "t03": [
+          "[1024, 1536]"
+        ],
+        "t04": [
+          "[1536, 1024]"
+        ],
+        "t05": [
+          "[1024, 1536]"
+        ],
+        "t06": [
+          "[1024, 1535]",
+          "[1024, 1536]"
+        ],
+        "t07": [
+          "[1536, 1024]"
+        ],
+        "t08": [
+          "[1024, 1536]"
+        ]
+      },
+      "task_mean_scores": {
+        "t01": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": null
+        },
+        "t02": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t03": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t04": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t05": {
+          "instruction": 3,
+          "visual": 3.667,
+          "preservation": 4
+        },
+        "t06": {
+          "instruction": 2.333,
+          "visual": 3.333,
+          "preservation": 3.333
+        },
+        "t07": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": 3
+        },
+        "t08": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": 4
+        }
+      },
+      "equal_task_mean_scores": {
+        "instruction": 3.167,
+        "visual": 3.875,
+        "preservation": 3.583
+      }
+    },
+    {
+      "model": "gpt-image-2.6-flare",
+      "requests": 14,
+      "success": 14,
+      "median_seconds": 55.352,
+      "mean_seconds": 50.685,
+      "min_seconds": 17.095,
+      "max_seconds": 108.413,
+      "actual_dimensions_by_task": {
+        "t01": [
+          "[1024, 1536]"
+        ],
+        "t02": [
+          "[1254, 1254]"
+        ],
+        "t03": [
+          "[1024, 1536]"
+        ],
+        "t04": [
+          "[1536, 1024]"
+        ],
+        "t05": [
+          "[1024, 1536]"
+        ],
+        "t06": [
+          "[1024, 1535]",
+          "[1024, 1536]"
+        ],
+        "t07": [
+          "[1536, 1024]"
+        ],
+        "t08": [
+          "[1024, 1536]"
+        ]
+      },
+      "task_mean_scores": {
+        "t01": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": null
+        },
+        "t02": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t03": {
+          "instruction": 3,
+          "visual": 3.667,
+          "preservation": null
+        },
+        "t04": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t05": {
+          "instruction": 3,
+          "visual": 3.667,
+          "preservation": 4
+        },
+        "t06": {
+          "instruction": 2,
+          "visual": 3,
+          "preservation": 2.667
+        },
+        "t07": {
+          "instruction": 2,
+          "visual": 4,
+          "preservation": 2
+        },
+        "t08": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": 4
+        }
+      },
+      "equal_task_mean_scores": {
+        "instruction": 3,
+        "visual": 3.792,
+        "preservation": 3.167
+      }
+    },
+    {
+      "model": "gpt-image-2.6-sunburst",
+      "requests": 14,
+      "success": 14,
+      "median_seconds": 41.144,
+      "mean_seconds": 49.498,
+      "min_seconds": 18.358,
+      "max_seconds": 113.164,
+      "actual_dimensions_by_task": {
+        "t01": [
+          "[1024, 1536]"
+        ],
+        "t02": [
+          "[1254, 1254]"
+        ],
+        "t03": [
+          "[1024, 1536]"
+        ],
+        "t04": [
+          "[1536, 1024]"
+        ],
+        "t05": [
+          "[1024, 1536]"
+        ],
+        "t06": [
+          "[1024, 1535]",
+          "[1024, 1536]"
+        ],
+        "t07": [
+          "[1536, 1024]"
+        ],
+        "t08": [
+          "[1024, 1536]"
+        ]
+      },
+      "task_mean_scores": {
+        "t01": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": null
+        },
+        "t02": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t03": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t04": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": null
+        },
+        "t05": {
+          "instruction": 3,
+          "visual": 4,
+          "preservation": 4
+        },
+        "t06": {
+          "instruction": 2.333,
+          "visual": 3.333,
+          "preservation": 3
+        },
+        "t07": {
+          "instruction": 2,
+          "visual": 4,
+          "preservation": 2
+        },
+        "t08": {
+          "instruction": 4,
+          "visual": 4,
+          "preservation": 4
+        }
+      },
+      "equal_task_mean_scores": {
+        "instruction": 3.042,
+        "visual": 3.917,
+        "preservation": 3.25
+      }
+    }
+  ],
+  "reviewed": 70,
+  "review_method": "Two assistants score disjoint sample sets with model labels withheld. Root spot-checks evidence after unblinding. Not a human panel or two independent ratings per sample."
+}

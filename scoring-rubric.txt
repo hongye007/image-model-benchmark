@@ -1,0 +1,17 @@
+匿名视觉评测协议（在第一次评分前固定）
+
+评测对象是模型标签A-E下的每个样本，不读取实际模型名称、耗时或其他样本元数据。只能读取本blind目录及其中references/images/sheets，评分保存到本目录scores.json。不要读取父目录blind-key.json、results.json或images文件名。
+
+先阅读tasks.json中的该题prompt、checks及notes。读原参考图。每张成功图都要实际打开；可以先联系表全览，但文字、脸、局部修改应查原分辨率图片或无生成操作的裁切。每个评分对应blind_id。
+
+instruction整数0-4：4=全部核心要求实现，仅无关轻微差异；3=主要要求完成、有次要遗漏；2=存在一个或多个明显核心要求错误但任务仍可辨；1=少量要求完成、大幅跑题；0=任务未实现/不可用。
+visual整数0-4：4=结构、材质、光线、排版整体可信且无明显缺陷；3=整体可用但局部有瑕疵；2=明显结构或质量问题；1=严重瑕疵影响使用；0=画面不可用。
+preservation整数0-4，只适用于edit：4=该题要求保留的人物/区域高度一致；3=轻微可察觉偏移；2=明显身份/非目标区域改变；1=大幅偏离；0=关键参考丢失。t05/t08只按题意保留身份与指定特征，不因正确换姿态/衣服扣分；t06/t07严格检查非目标区域。generation填写null。
+
+checks：对照该题的6项检查逐条填写{id,pass:true/false/null,note}。一项含多个要求时，存在明确一项不满足即false；证据看不清记null，不猜。短文本需逐字看图，无法确认标uncertain，不把OCR输出当真值。手部不可见/角度遮挡时不要编造手指数量。
+
+失败或无图样本：status与manifest一致，instruction/visual/preservation均null，checks=[]，observation='本请求未产生可评图片'，缺陷只按已知无图事实，不臆测具体接口错误。
+
+每条输出字段：blind_id,task_id,round,label,status,instruction,visual,preservation,checks:[...],observation(1-3句具体可见事实),defects:[可观察缺陷],review_confidence:'high'|'medium'|'low'。
+
+这是AI助手的视觉观察，非人类受试者盲测或科学测量。不要强行拉开接近的结果，不给模型综合名次，不根据版本、名字、风格猜测身份。
